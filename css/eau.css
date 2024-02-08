@@ -77,3 +77,9 @@ body{
 .text p{
     padding: 10px;
 }
+.about-us-content ul li{
+    text-align: left;
+    padding: 10px;
+    line-height: 26px;
+    list-style: square;
+}
