@@ -59,7 +59,7 @@ body, h1, h2, p, ul, li {
 
 /* hero Styles */
 .hero-section {
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("/images/ban.webp");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("squizt/OROS/images/ban.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
