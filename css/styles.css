@@ -60,12 +60,12 @@ body, h1, h2, p, ul, li {
 
 /* Hero Section Styles */
 .hero-section {
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("/images/ban.webp");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./images/ban.webp");
     /*background-image: url("/images/ban.webp");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-color: var(--theme-color); /* Use the same theme color as in the header */
+    /*background-color: var(--theme-color); 
     height: 50vh;
     color: #fff;
     text-align: center;
@@ -134,7 +134,7 @@ body, h1, h2, p, ul, li {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--theme-color); /* Use the same theme color as in the header */
+    background-color: var(--theme-color); 
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -144,13 +144,13 @@ body, h1, h2, p, ul, li {
 }
 
 .cta-button:hover {
-    background-color: #2980b9; /* Darker color on hover */
+    background-color: #2980b9; 
 }
 
 
 /* Focus Areas Section Styles */
 .focus-areas-section {
-    background-color: #f9f9f9; /* Use a light background color */
+    background-color: #f9f9f9; 
     color: #333;
     text-align: center;
     padding: 80px 20px;
@@ -196,7 +196,7 @@ body, h1, h2, p, ul, li {
     width: 98px;
     height: 30%;
     padding: 10px 20px;
-    background-color: var(--theme-color); /* Use the same theme color as in the header */
+    background-color: var(--theme-color); /* Utiliser menm color theme  ki nan header */
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -227,7 +227,7 @@ body, h1, h2, p, ul, li {
 
 /* Impact and Success Stories Section Styles */
 .impact-section {
-    background-color: #f5f5f5; /* Use a light background color */
+    background-color: #f5f5f5; 
     color: #333;
     text-align: center;
     padding: 80px 20px;
@@ -273,7 +273,7 @@ body, h1, h2, p, ul, li {
 .read-more {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--theme-color); /* Use the same theme color as in the header */
+    background-color: var(--theme-color); 
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -283,7 +283,7 @@ body, h1, h2, p, ul, li {
 }
 
 .read-more:hover {
-    background-color: #2980b9; /* Darker color on hover */
+    background-color: #2980b9; 
 }
 
 
@@ -332,14 +332,14 @@ body, h1, h2, p, ul, li {
 
 .donate-button:hover,
 .volunteer-button:hover {
-    background-color: #2980b9; /* Darker color on hover */
-    color: #fff; /* Light text color on hover */
+    background-color: #2980b9; 
+    color: #fff; 
 }
 
 
 /* Latest News and Updates Section Styles */
 .news-section {
-    background-color: #ecf0f1; /* Use a light background color */
+    background-color: #ecf0f1; 
     color: #333;
     text-align: center;
     padding: 80px 20px;
