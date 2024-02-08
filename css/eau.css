@@ -3,7 +3,7 @@ body{
     color: #666;
 }
 .hero-section {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/oxfam_humanitaeau-potable2.webp");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/oxfam_humanitaeau-potable2.webp");
     
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 .banner-section {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/kabrit.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/kabrit.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
