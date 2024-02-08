@@ -63,7 +63,8 @@ body, h1, h2, p, ul, li {
     }
     .section{
         display:block;
-    
+    .team-section{
+        display: block;
 }
 
 /* hero Styles */
