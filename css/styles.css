@@ -61,6 +61,8 @@ body, h1, h2, p, ul, li {
     .main-nav{
         display: none;
     }
+    .section{
+        display:block;
     
 }
 
