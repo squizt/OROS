@@ -61,10 +61,9 @@ body, h1, h2, p, ul, li {
     .main-nav{
         display: none;
     }
-    .section{
-        display:block;
-    .team-section{
+    .mission-content, .team-members{
         display: block;
+    }
 }
 
 /* hero Styles */
