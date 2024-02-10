@@ -217,7 +217,9 @@ body, h1, h2, p, ul, li {
     .focus-area h3{
         font-size: 1.3rem;
         margin: 35px;
-
+    }
+    .focus-area h3{
+        grid-gap: 5px;
     }
     .focus-area p{
         font-size: 0.8rem;
