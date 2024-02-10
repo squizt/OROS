@@ -242,6 +242,9 @@ body, h1, h2, p, ul, li {
     .focus-area p{
         font-size: 0.8rem;
     }
+    .focus-area h3{
+        margin-bottom: 5px;
+    }
     .interv-button{
         width: fit-content;
     }
