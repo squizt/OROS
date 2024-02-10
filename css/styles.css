@@ -191,7 +191,8 @@ body, h1, h2, p, ul, li {
 .focus-area {
     /*flex: 1 1 300px;*/
     display: grid;
-    grid-template-rows: 160px 1fr 1fr 1fr;
+    grid-template-rows: 265px 1fr 1fr 1fr;
+    gap: 10px;
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -216,7 +217,6 @@ body, h1, h2, p, ul, li {
     }
     .focus-area h3{
         font-size: 1.3rem;
-        margin: 35px;
     }
     .focus-area p{
         font-size: 0.8rem;
@@ -239,8 +239,6 @@ body, h1, h2, p, ul, li {
     }
     .focus-area h3{
         font-size: 1.3rem;
-        margin: 45px;
-
     }
     .focus-area p{
         font-size: 0.8rem;
