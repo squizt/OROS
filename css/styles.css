@@ -218,9 +218,6 @@ body, h1, h2, p, ul, li {
         font-size: 1.3rem;
         margin: 35px;
     }
-    .focus-area h3{
-        grid-gap: 5px;
-    }
     .focus-area p{
         font-size: 0.8rem;
     }
@@ -229,6 +226,10 @@ body, h1, h2, p, ul, li {
     }
     .mission-content, .team-members{
         grid-template-columns: 1fr 1fr;
+    }
+        
+    .focus-area img{
+        margin-bottom: 15px;
     }
 }
 
@@ -244,8 +245,8 @@ body, h1, h2, p, ul, li {
     .focus-area p{
         font-size: 0.8rem;
     }
-    .focus-area h3{
-        grid-gap: 5px;
+    .focus-area img{
+        margin-bottom: 15px;
     }
     .interv-button{
         width: fit-content;
