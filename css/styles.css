@@ -80,7 +80,7 @@ body, h1, h2, p, ul, li {
 
 /* Hero Section Styles */
 .hero-section {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("../images/environn.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("/images/environn.jpg");
     /*background-image: url("/images/ban.webp");*/
     background-position: center;
     background-repeat: no-repeat;
@@ -191,8 +191,7 @@ body, h1, h2, p, ul, li {
 .focus-area {
     /*flex: 1 1 300px;*/
     display: grid;
-    grid-template-rows: 265px 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-rows: 165px 1fr 1fr 1fr; /*changer*/
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -215,6 +214,12 @@ body, h1, h2, p, ul, li {
     .interv-contenue{
         grid-template-columns: 1fr 1fr;;
     }
+    /*new block*/
+    .focus-area{
+        grid-template-rows: 1fr;
+        gap: 5px;
+        margin: 10px;
+    }
     .focus-area h3{
         font-size: 1.3rem;
     }
@@ -227,13 +232,9 @@ body, h1, h2, p, ul, li {
     .mission-content, .team-members{
         grid-template-columns: 1fr 1fr;
     }
-        
-    .focus-area img{
-        margin-bottom: 15px;
-    }
 }
 
-@media (max-width: 560px){
+@media (max-width: 600px){
     .interv-contenue{
         display: block;
     }
@@ -243,14 +244,23 @@ body, h1, h2, p, ul, li {
     .focus-area p{
         font-size: 0.8rem;
     }
-    .focus-area img{
-        margin-bottom: 15px;
-    }
     .interv-button{
         width: fit-content;
     }
     .mission-content, .team-members{
         display: block;
+    }
+    /*new block*/
+    .focus-area{
+        grid-template-rows: 1fr;
+        gap: 5px;
+        margin: 10px;
+    }
+    .btn-plus{
+        padding-bottom: 10px;
+    }
+    .interv-button{
+        width: fit-content;
     }
 }
 
@@ -361,7 +371,7 @@ body, h1, h2, p, ul, li {
 /* Get Involved Section Styles */
 .get-involved-section {
     /* background-color: #3498db; Use a theme color for the background */
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/environn.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/images/environn.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
