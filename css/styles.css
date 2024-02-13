@@ -73,7 +73,7 @@ body, h1, h2, p, ul, li {
 
 /* Hero Section Styles */
 .hero-section {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("/images/environn.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("../images/environn.jpg");
     /*background-image: url("/images/ban.webp");*/
     background-position: center;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body, h1, h2, p, ul, li {
 /* Get Involved Section Styles */
 .get-involved-section {
     /* background-color: #3498db; Use a theme color for the background */
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/images/environn.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/environn.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
