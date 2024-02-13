@@ -19,7 +19,7 @@
 
     /*mediaquery for style interv*/
     .interv-contenue{
-        grid-template-columns: 1fr 1fr;;
+        display: block;
     }
     .focus-area h3{
         font-size: 1.3rem;
