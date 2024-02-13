@@ -1,0 +1,91 @@
+/*mediaquery for education*/
+
+@media (max-width: 750px) {
+    /*mediaquery for education*/
+    .mission-conten{
+        display: block;
+    }
+    .mission-image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    /*mediaquery for style nav*/
+    .main-nav{
+        display: none;
+    }
+    .logo-container h1{
+        font-size: 1rem;
+    }
+
+    /*mediaquery for style interv*/
+    .interv-contenue{
+        grid-template-columns: 1fr 1fr;;
+    }
+    .focus-area h3{
+        font-size: 1.3rem;
+    }
+    .focus-area p{
+        font-size: 0.8rem;
+    }
+    .interv-button{
+        width: fit-content;
+    }
+
+    /*mediaquery for style interv*/
+    .interv-contenue{
+        grid-template-columns: 1fr 1fr;;
+    }
+    /*new block*/
+    .focus-area{
+        grid-template-rows: 1fr;
+        gap: 5px;
+        margin: 10px;
+    }
+    .btn-plus{
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 751px) and (max-width:999px) {
+    /*mediaquery for education*/
+    .mission-conten{
+        display: block;
+    }
+    .mission-image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    /*mediaquery for style nav*/
+    .main-nav{
+        display: none;
+    }
+    .logo-container h1{
+        font-size: 1rem;
+    }
+    /*mediaquery for style interv*/
+    .interv-contenue{
+        grid-template-columns: 1fr 1fr;
+    }
+    /*new block*/
+    .focus-area{
+        grid-template-rows: 1fr;
+        gap: 5px;
+        margin: 10px;
+    }
+    .focus-area h3{
+        font-size: 1.3rem;
+    }
+    .focus-area p{
+        font-size: 0.8rem;
+    }
+    .interv-button{
+        width: fit-content;
+    }
+    .btn-plus{
+        padding-bottom: 10px;
+    }
+}
+
+
+

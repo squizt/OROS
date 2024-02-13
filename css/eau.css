@@ -1,0 +1,91 @@
+/* Hero Section Styles */
+body{
+    color: #666;
+}
+.hero-section {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/EAu-colladere.jpg");
+    /*background-image: url("/images/ban.webp");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
+.banner-section {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/kabrit.jpg");
+    /*background-image: url("/images/ban.webp");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-content h2 {
+    /*color: #3498db;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #47db34;
+}
+.about-us-content p{
+    color: #666;
+}
+.containe {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.containe p{
+    line-height: 25px;
+}
+.h{
+    padding: 16px;
+    text-align: center;
+    color: #47db34;
+}
+
+.grid-container {
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #47db34;
+}
+
+.text {
+    padding: 20px;
+}
+.text h2{
+    color: #47db34;
+}
+.text p{
+    padding: 10px;
+}
+
+.about-us-content ul li{
+    text-align: left;
+    padding: 10px;
+    line-height: 26px;
+    list-style: square;
+}
