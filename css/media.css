@@ -5,6 +5,9 @@
     .mission-conten{
         display: block;
     }
+    .mission-content{
+        display: block;
+    }
     .mission-image{
         display: block;
         margin-bottom: 10px;
@@ -50,6 +53,9 @@
 @media (min-width: 751px) and (max-width:999px) {
     /*mediaquery for education*/
     .mission-conten{
+        display: block;
+    }
+    .mission-content{
         display: block;
     }
     .mission-image{
