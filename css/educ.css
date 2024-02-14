@@ -65,3 +65,9 @@
     margin: 5px;
     padding: 28px;
 }
+
+/*future perspectives*/
+ol li{
+    text-align: left;
+    margin-bottom: 15px;
+}
