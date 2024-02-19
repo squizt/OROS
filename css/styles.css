@@ -472,6 +472,10 @@ body, h1, h2, p, ul, li {
     height: 30px;
 }
 
+.lien{
+    text-decoration: none;
+    color: white;
+}
 .btn-plus{
     display: flex;
     align-items: center;
